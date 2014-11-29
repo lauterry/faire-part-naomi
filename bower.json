@@ -1,0 +1,19 @@
+{
+  "name": "naomi-lau",
+  "version": "1.0.0",
+  "authors": [
+    "Thierry LAU <thierlau@gmail.com>"
+  ],
+  "description": "Site dedie a la naissance de ma fille Naomi",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "scrollr": "~0.6.29"
+  }
+}

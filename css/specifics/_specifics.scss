@@ -1,0 +1,22 @@
+#slide-1 {
+	.slide-background {
+		background-image: url('../img/studio.jpeg');
+	}
+
+	.slide-title {
+		margin-top: 250px;
+	}
+}
+
+#slide-2 {
+	height: 50%;
+	.slide-background {
+		background-color: rgba(187, 67, 68, 0.85);
+	}
+}
+
+#slide-3 {
+	.slide-background {
+		background-image: url('../img/naomi.jpg');
+	}
+}
