@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/components/birthdata.scss"/>
     <title>Naomi</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/app.css">
@@ -9,7 +10,7 @@
 <body>
 
 <section id="slide-1" class="slide">
-    <div class="slide-background">
+    <div class="slide-background" data-top="background-position: 0 0px;" data-top-bottom="background-position: 0 -200px;" data-anchor-target="#slide-1">
         <div class="slide-container">
             <div class="slide-content">
                 <h1 class="slide-title">Nous étions impatients ...</h1>
@@ -29,9 +30,28 @@
 </section>
 
 <section id="slide-3" class="slide">
-    <div class="slide-background">
+    <div class="slide-background" >
         <div class="slide-container">
-            <div class="slide-content">
+            <div class="slide-content" data-top="opacity:1;" data-300-top="opacity:0;">
+                <ul class="birthdata"
+                    data-top="right:0px;"
+                    data-50-top="right:-50px;"
+                    data-100-top="right:-100px;"
+                    data-150-top="right:-150px;"
+                    data-200-top="right:-200px;">
+                    <li class="birthdata-item date">
+                        <div><i class="icon-heart"></i><p>06.11.2014</p></div>
+                    </li>
+                    <li class="birthdata-item time">
+                        <div><i class="icon-time"></i><p>9h56</p></div>
+                    </li>
+                    <li class="birthdata-item weight">
+                        <div><i class="icon-balance"></i><p>3,24 kg</p></div>
+                    </li>
+                    <li class="birthdata-item height">
+                        <div><i class="icon-rule"></i><p>50 cm</p></div>
+                    </li>
+                </ul>
                 <h1 class="slide-title">Naomi</h1>
             </div>
         </div>

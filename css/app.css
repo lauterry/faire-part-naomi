@@ -10,6 +10,79 @@ body, html {
 @font-face {
   font-family: 'FingerPaint';
   src: url("../fonts/FingerPaint-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'AmaticSC';
+  src: url("../fonts/AmaticSC-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?5suhin");
+  src: url("../fonts/icomoon.eot?#iefix5suhin") format("embedded-opentype"), url("../fonts/icomoon.woff?5suhin") format("woff"), url("../fonts/icomoon.ttf?5suhin") format("truetype"), url("../fonts/icomoon.svg?5suhin#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-balance:before {
+  content: "\e600"; }
+
+.icon-rule:before {
+  content: "\e601"; }
+
+.icon-time:before {
+  content: "\e602"; }
+
+.icon-heart:before {
+  content: "\e603"; }
+
+.birthdata {
+  position: relative;
+  float: right;
+  height: 100%;
+  list-style: none;
+  font-family: "AmaticSC";
+  font-size: 2rem;
+  font-weight: bold;
+  width: 200px; }
+  .birthdata-item {
+    display: block;
+    height: 25%;
+    box-sizing: border-box;
+    padding: 10px; }
+    .birthdata-item div {
+      border: 2px dashed #fff;
+      height: 100%;
+      padding-top: 15%;
+      box-sizing: border-box; }
+    .birthdata-item.date {
+      background-color: #d7baa8;
+      color: #9e6948; }
+      .birthdata-item.date div {
+        border-color: #f4ece7; }
+    .birthdata-item.time {
+      background-color: #bc674a;
+      color: #623424; }
+      .birthdata-item.time div {
+        border-color: #d59f8d; }
+    .birthdata-item.weight {
+      background-color: #954347;
+      color: #562729; }
+      .birthdata-item.weight div {
+        border-color: #562729; }
+    .birthdata-item.height {
+      background-color: #a35469;
+      color: #663542; }
+      .birthdata-item.height div {
+        border-color: #c58e9d; }
+
 .slide {
   height: 100%; }
   .slide-background {
@@ -49,3 +122,8 @@ body, html {
 
 #slide-3 .slide-background {
   background-image: url("../img/naomi.jpg"); }
+#slide-3 .slide-content {
+  padding-right: 0; }
+#slide-3 .slide-title {
+  padding-top: 30%;
+  font-size: 6rem; }

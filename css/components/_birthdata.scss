@@ -1,0 +1,61 @@
+.birthdata {
+	position: relative;
+	float: right;
+	height: 100%;
+	list-style: none;
+	font-family: "AmaticSC";
+	font-size: 2rem;
+	font-weight: bold;
+	width: 200px;
+
+	&-item {
+		display: block;
+		height: 25%;
+		box-sizing: border-box;
+		padding: 10px;
+
+		div {
+			border: 2px dashed #fff;
+			height: 100%;
+			padding-top: 15%;
+			box-sizing: border-box;
+		}
+
+		&.date {
+			background-color: #d7baa8;
+			color: darken(#d7baa8, 30%);
+
+			div {
+				border-color: lighten(#d7baa8, 18%);
+			}
+		}
+
+		&.time {
+			background-color: #bc674a;
+			color: darken(#bc674a, 25%);
+
+			div {
+				border-color: lighten(#bc674a, 18%);
+			}
+		}
+
+		&.weight {
+			background-color: #954347;
+			color: darken(#954347, 18%);
+
+			div {
+				border-color: darken(#954347, 18%);
+			}
+		}
+
+		&.height {
+			background-color: #a35469;
+			color: darken(#a35469, 18%);
+
+			div {
+				border-color: lighten(#a35469, 18%);
+			}
+		}
+
+	}
+}
