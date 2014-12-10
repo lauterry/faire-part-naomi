@@ -123,7 +123,7 @@ body, html {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
   -webkit-transform: rotate(-8deg);
-  -moz-transform: rotate(-deg);
+  -moz-transform: rotate(-8deg);
   -webkit-transition: -webkit-transform .15s linear; }
   .polaroid-image {
     display: block;
@@ -142,6 +142,25 @@ body, html {
   height: 50%; }
   #slide-2 .slide-background {
     background-color: rgba(187, 67, 68, 0.85); }
+  #slide-2 .polaroid {
+    position: absolute;
+    margin-top: -100px; }
+    #slide-2 .polaroid:nth-child(2) {
+      left: 300px;
+      -webkit-transform: rotate(-15deg);
+      -moz-transform: rotate(-15deg); }
+    #slide-2 .polaroid:nth-child(3) {
+      left: 500px;
+      -webkit-transform: rotate(10deg);
+      -moz-transform: rotate(10deg); }
+    #slide-2 .polaroid:nth-child(4) {
+      left: 700px;
+      -webkit-transform: rotate(4deg);
+      -moz-transform: rotate(4deg); }
+    #slide-2 .polaroid:nth-child(5) {
+      left: 900px;
+      -webkit-transform: rotate(-20deg);
+      -moz-transform: rotate(-20deg); }
 
 #slide-3 .slide-background {
   background-image: url("../img/naomi.jpg"); }
@@ -159,5 +178,61 @@ body, html {
   text-align: left;
   border-top: 1px solid #A09C9C;
   border-bottom: 1px solid #A09C9C; }
+
+#slide-4 {
+  height: 250%; }
+  #slide-4 .slide-background {
+    background-color: rgba(239, 194, 118, 0.85); }
+  #slide-4 .slide-title {
+    position: absolute;
+    top: 30px; }
+  #slide-4 .polaroid {
+    position: absolute;
+    top: 200px; }
+    #slide-4 .polaroid:nth-of-type(1) {
+      -webkit-transform: rotate(5deg);
+      -moz-transform: rotate(7deg); }
+    #slide-4 .polaroid:nth-of-type(2) {
+      -webkit-transform: rotate(7deg);
+      -moz-transform: rotate(8deg); }
+    #slide-4 .polaroid:nth-of-type(3) {
+      -webkit-transform: rotate(8deg);
+      -moz-transform: rotate(-7deg); }
+    #slide-4 .polaroid:nth-of-type(4) {
+      -webkit-transform: rotate(1deg);
+      -moz-transform: rotate(9deg); }
+    #slide-4 .polaroid:nth-of-type(5) {
+      -webkit-transform: rotate(2deg);
+      -moz-transform: rotate(6deg); }
+    #slide-4 .polaroid:nth-of-type(6) {
+      -webkit-transform: rotate(5deg);
+      -moz-transform: rotate(2deg); }
+    #slide-4 .polaroid:nth-of-type(7) {
+      -webkit-transform: rotate(5deg);
+      -moz-transform: rotate(0deg); }
+    #slide-4 .polaroid:nth-of-type(8) {
+      -webkit-transform: rotate(-2deg);
+      -moz-transform: rotate(5deg); }
+    #slide-4 .polaroid:nth-of-type(9) {
+      -webkit-transform: rotate(9deg);
+      -moz-transform: rotate(-5deg); }
+    #slide-4 .polaroid:nth-of-type(10) {
+      -webkit-transform: rotate(10deg);
+      -moz-transform: rotate(-2deg); }
+    #slide-4 .polaroid:nth-of-type(11) {
+      -webkit-transform: rotate(1deg);
+      -moz-transform: rotate(-3deg); }
+    #slide-4 .polaroid:nth-of-type(12) {
+      -webkit-transform: rotate(-4deg);
+      -moz-transform: rotate(1deg); }
+    #slide-4 .polaroid:nth-of-type(13) {
+      -webkit-transform: rotate(-5deg);
+      -moz-transform: rotate(7deg); }
+    #slide-4 .polaroid:nth-of-type(14) {
+      -webkit-transform: rotate(-3deg);
+      -moz-transform: rotate(7deg); }
+    #slide-4 .polaroid:nth-of-type(15) {
+      -webkit-transform: rotate(8deg);
+      -moz-transform: rotate(-1deg); }
 
 /*# sourceMappingURL=app.css.map */
