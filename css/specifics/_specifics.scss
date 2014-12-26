@@ -13,36 +13,6 @@
 	.slide-background {
 		background-color: rgba(187, 67, 68, 0.85);
 	}
-
-	.polaroid {
-		position: absolute;
-		margin-top: -100px;
-
-		&:nth-child(2) {
-			left: 300px;
-			-webkit-transform: rotate(-15deg);
-			-moz-transform: rotate(-15deg);
-		}
-
-		&:nth-child(3) {
-			left: 500px;
-			-webkit-transform: rotate(10deg);
-			-moz-transform: rotate(10deg);
-		}
-
-		&:nth-child(4) {
-			left: 700px;
-			-webkit-transform: rotate(4deg);
-			-moz-transform: rotate(4deg);
-		}
-
-		&:nth-child(5) {
-			left: 900px;
-			-webkit-transform: rotate(-20deg);
-			-moz-transform: rotate(-20deg);
-		}
-	}
-
 }
 
 #slide-3 {
@@ -52,20 +22,6 @@
 
 	.slide-content {
 		padding-right: 0;
-	}
-
-	.slide-title {
-		position: absolute;
-		left: 0;
-		bottom: 60px;
-		color: #9E3A6C;
-		width: 100%;
-		font-size: 6.5rem;
-		background-color: rgba(255, 255, 255, 0.3);
-		padding: 5px 40px 5px 100px;
-		text-align: left;
-		border-top: 1px solid #A09C9C;
-		border-bottom: 1px solid #A09C9C;
 	}
 }
 
@@ -85,13 +41,18 @@
 		position: absolute;
 		top: 200px;
 
-		@for $i from 1 through 15 {
+		@for $i from 1 through 28 {
 			&:nth-of-type(#{$i}) {
-//				left: random(900) + px;
-//				top: 200 + random(400) + px;
-				-webkit-transform: rotate((random(20) - 10) + deg);
-				-moz-transform: rotate((random(20) - 10) + deg);
+				-webkit-transform: rotate((random(30) - 25) + deg);
+				-moz-transform: rotate((random(30) - 25) + deg);
+				transform: rotate((random(30) - 25) + deg);
 			}
 		}
+	}
+}
+
+#slide-5 {
+	.slide-background {
+		background-image: url('../img/naomi-sourire.jpg');
 	}
 }

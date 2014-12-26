@@ -122,9 +122,13 @@ body, html {
   text-decoration: none;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  -moz-transform: rotate(-8deg);
   -webkit-transform: rotate(-8deg);
   -moz-transform: rotate(-8deg);
-  -webkit-transition: -webkit-transform .15s linear; }
+  -webkit-transition: -webkit-transform .15s linear;
+  -moz-transition: -moz-transform .15s linear;
+  transition: transform .15s linear; }
   .polaroid-image {
     display: block;
     width: 190px;
@@ -142,42 +146,11 @@ body, html {
   height: 50%; }
   #slide-2 .slide-background {
     background-color: rgba(187, 67, 68, 0.85); }
-  #slide-2 .polaroid {
-    position: absolute;
-    margin-top: -100px; }
-    #slide-2 .polaroid:nth-child(2) {
-      left: 300px;
-      -webkit-transform: rotate(-15deg);
-      -moz-transform: rotate(-15deg); }
-    #slide-2 .polaroid:nth-child(3) {
-      left: 500px;
-      -webkit-transform: rotate(10deg);
-      -moz-transform: rotate(10deg); }
-    #slide-2 .polaroid:nth-child(4) {
-      left: 700px;
-      -webkit-transform: rotate(4deg);
-      -moz-transform: rotate(4deg); }
-    #slide-2 .polaroid:nth-child(5) {
-      left: 900px;
-      -webkit-transform: rotate(-20deg);
-      -moz-transform: rotate(-20deg); }
 
 #slide-3 .slide-background {
   background-image: url("../img/naomi-studio.jpg"); }
 #slide-3 .slide-content {
   padding-right: 0; }
-#slide-3 .slide-title {
-  position: absolute;
-  left: 0;
-  bottom: 60px;
-  color: #9E3A6C;
-  width: 100%;
-  font-size: 6.5rem;
-  background-color: rgba(255, 255, 255, 0.3);
-  padding: 5px 40px 5px 100px;
-  text-align: left;
-  border-top: 1px solid #A09C9C;
-  border-bottom: 1px solid #A09C9C; }
 
 #slide-4 {
   height: 300%; }
@@ -190,47 +163,117 @@ body, html {
     position: absolute;
     top: 200px; }
     #slide-4 .polaroid:nth-of-type(1) {
-      -webkit-transform: rotate(8deg);
-      -moz-transform: rotate(-5deg); }
+      -webkit-transform: rotate(-16deg);
+      -moz-transform: rotate(-8deg);
+      transform: rotate(-20deg); }
     #slide-4 .polaroid:nth-of-type(2) {
-      -webkit-transform: rotate(-5deg);
-      -moz-transform: rotate(10deg); }
-    #slide-4 .polaroid:nth-of-type(3) {
       -webkit-transform: rotate(0deg);
-      -moz-transform: rotate(2deg); }
+      -moz-transform: rotate(-9deg);
+      transform: rotate(-9deg); }
+    #slide-4 .polaroid:nth-of-type(3) {
+      -webkit-transform: rotate(-7deg);
+      -moz-transform: rotate(1deg);
+      transform: rotate(-10deg); }
     #slide-4 .polaroid:nth-of-type(4) {
-      -webkit-transform: rotate(6deg);
-      -moz-transform: rotate(-5deg); }
+      -webkit-transform: rotate(5deg);
+      -moz-transform: rotate(-21deg);
+      transform: rotate(-22deg); }
     #slide-4 .polaroid:nth-of-type(5) {
-      -webkit-transform: rotate(3deg);
-      -moz-transform: rotate(-6deg); }
+      -webkit-transform: rotate(-15deg);
+      -moz-transform: rotate(-22deg);
+      transform: rotate(-10deg); }
     #slide-4 .polaroid:nth-of-type(6) {
-      -webkit-transform: rotate(10deg);
-      -moz-transform: rotate(10deg); }
+      -webkit-transform: rotate(5deg);
+      -moz-transform: rotate(-16deg);
+      transform: rotate(-1deg); }
     #slide-4 .polaroid:nth-of-type(7) {
-      -webkit-transform: rotate(10deg);
-      -moz-transform: rotate(-8deg); }
+      -webkit-transform: rotate(-6deg);
+      -moz-transform: rotate(-12deg);
+      transform: rotate(-13deg); }
     #slide-4 .polaroid:nth-of-type(8) {
-      -webkit-transform: rotate(-2deg);
-      -moz-transform: rotate(-1deg); }
+      -webkit-transform: rotate(-6deg);
+      -moz-transform: rotate(-23deg);
+      transform: rotate(-2deg); }
     #slide-4 .polaroid:nth-of-type(9) {
-      -webkit-transform: rotate(5deg);
-      -moz-transform: rotate(3deg); }
+      -webkit-transform: rotate(-1deg);
+      -moz-transform: rotate(-16deg);
+      transform: rotate(-24deg); }
     #slide-4 .polaroid:nth-of-type(10) {
-      -webkit-transform: rotate(2deg);
-      -moz-transform: rotate(6deg); }
+      -webkit-transform: rotate(-22deg);
+      -moz-transform: rotate(-5deg);
+      transform: rotate(-23deg); }
     #slide-4 .polaroid:nth-of-type(11) {
-      -webkit-transform: rotate(9deg);
-      -moz-transform: rotate(-3deg); }
+      -webkit-transform: rotate(-14deg);
+      -moz-transform: rotate(-15deg);
+      transform: rotate(-20deg); }
     #slide-4 .polaroid:nth-of-type(12) {
-      -webkit-transform: rotate(9deg);
-      -moz-transform: rotate(3deg); }
+      -webkit-transform: rotate(-21deg);
+      -moz-transform: rotate(2deg);
+      transform: rotate(-5deg); }
     #slide-4 .polaroid:nth-of-type(13) {
-      -webkit-transform: rotate(7deg);
-      -moz-transform: rotate(-2deg); }
+      -webkit-transform: rotate(-15deg);
+      -moz-transform: rotate(-1deg);
+      transform: rotate(3deg); }
     #slide-4 .polaroid:nth-of-type(14) {
-      -webkit-transform: rotate(5deg);
-      -moz-transform: rotate(6deg); }
+      -webkit-transform: rotate(-1deg);
+      -moz-transform: rotate(-14deg);
+      transform: rotate(-2deg); }
     #slide-4 .polaroid:nth-of-type(15) {
+      -webkit-transform: rotate(-11deg);
+      -moz-transform: rotate(3deg);
+      transform: rotate(-21deg); }
+    #slide-4 .polaroid:nth-of-type(16) {
+      -webkit-transform: rotate(-7deg);
+      -moz-transform: rotate(0deg);
+      transform: rotate(1deg); }
+    #slide-4 .polaroid:nth-of-type(17) {
+      -webkit-transform: rotate(-2deg);
+      -moz-transform: rotate(-11deg);
+      transform: rotate(-6deg); }
+    #slide-4 .polaroid:nth-of-type(18) {
+      -webkit-transform: rotate(-14deg);
+      -moz-transform: rotate(4deg);
+      transform: rotate(-18deg); }
+    #slide-4 .polaroid:nth-of-type(19) {
       -webkit-transform: rotate(1deg);
-      -moz-transform: rotate(-6deg); }
+      -moz-transform: rotate(-24deg);
+      transform: rotate(-10deg); }
+    #slide-4 .polaroid:nth-of-type(20) {
+      -webkit-transform: rotate(3deg);
+      -moz-transform: rotate(-24deg);
+      transform: rotate(-17deg); }
+    #slide-4 .polaroid:nth-of-type(21) {
+      -webkit-transform: rotate(-22deg);
+      -moz-transform: rotate(-17deg);
+      transform: rotate(-8deg); }
+    #slide-4 .polaroid:nth-of-type(22) {
+      -webkit-transform: rotate(-17deg);
+      -moz-transform: rotate(-2deg);
+      transform: rotate(5deg); }
+    #slide-4 .polaroid:nth-of-type(23) {
+      -webkit-transform: rotate(5deg);
+      -moz-transform: rotate(-5deg);
+      transform: rotate(-6deg); }
+    #slide-4 .polaroid:nth-of-type(24) {
+      -webkit-transform: rotate(-10deg);
+      -moz-transform: rotate(-19deg);
+      transform: rotate(-24deg); }
+    #slide-4 .polaroid:nth-of-type(25) {
+      -webkit-transform: rotate(-6deg);
+      -moz-transform: rotate(1deg);
+      transform: rotate(-3deg); }
+    #slide-4 .polaroid:nth-of-type(26) {
+      -webkit-transform: rotate(-23deg);
+      -moz-transform: rotate(-18deg);
+      transform: rotate(3deg); }
+    #slide-4 .polaroid:nth-of-type(27) {
+      -webkit-transform: rotate(-2deg);
+      -moz-transform: rotate(-16deg);
+      transform: rotate(-8deg); }
+    #slide-4 .polaroid:nth-of-type(28) {
+      -webkit-transform: rotate(4deg);
+      -moz-transform: rotate(-16deg);
+      transform: rotate(-7deg); }
+
+#slide-5 .slide-background {
+  background-image: url("../img/naomi-sourire.jpg"); }
