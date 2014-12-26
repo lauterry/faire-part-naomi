@@ -134,7 +134,7 @@ body, html {
     height: auto; }
 
 #slide-1 .slide-background {
-  background-image: url("../img/studio.jpeg"); }
+  background-image: url("../img/thierry-ecoute-bebe.jpg"); }
 #slide-1 .slide-title {
   margin-top: 250px; }
 
@@ -163,7 +163,7 @@ body, html {
       -moz-transform: rotate(-20deg); }
 
 #slide-3 .slide-background {
-  background-image: url("../img/naomi.jpg"); }
+  background-image: url("../img/naomi-studio.jpg"); }
 #slide-3 .slide-content {
   padding-right: 0; }
 #slide-3 .slide-title {
@@ -180,7 +180,7 @@ body, html {
   border-bottom: 1px solid #A09C9C; }
 
 #slide-4 {
-  height: 280%; }
+  height: 300%; }
   #slide-4 .slide-background {
     background-color: rgba(239, 194, 118, 0.85); }
   #slide-4 .slide-title {
@@ -190,47 +190,47 @@ body, html {
     position: absolute;
     top: 200px; }
     #slide-4 .polaroid:nth-of-type(1) {
-      -webkit-transform: rotate(5deg);
-      -moz-transform: rotate(5deg); }
+      -webkit-transform: rotate(8deg);
+      -moz-transform: rotate(-5deg); }
     #slide-4 .polaroid:nth-of-type(2) {
       -webkit-transform: rotate(-5deg);
-      -moz-transform: rotate(7deg); }
+      -moz-transform: rotate(10deg); }
     #slide-4 .polaroid:nth-of-type(3) {
-      -webkit-transform: rotate(-7deg);
-      -moz-transform: rotate(9deg); }
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(2deg); }
     #slide-4 .polaroid:nth-of-type(4) {
-      -webkit-transform: rotate(8deg);
-      -moz-transform: rotate(2deg); }
-    #slide-4 .polaroid:nth-of-type(5) {
-      -webkit-transform: rotate(-5deg);
+      -webkit-transform: rotate(6deg);
       -moz-transform: rotate(-5deg); }
+    #slide-4 .polaroid:nth-of-type(5) {
+      -webkit-transform: rotate(3deg);
+      -moz-transform: rotate(-6deg); }
     #slide-4 .polaroid:nth-of-type(6) {
-      -webkit-transform: rotate(-3deg);
-      -moz-transform: rotate(6deg); }
+      -webkit-transform: rotate(10deg);
+      -moz-transform: rotate(10deg); }
     #slide-4 .polaroid:nth-of-type(7) {
-      -webkit-transform: rotate(-3deg);
-      -moz-transform: rotate(2deg); }
+      -webkit-transform: rotate(10deg);
+      -moz-transform: rotate(-8deg); }
     #slide-4 .polaroid:nth-of-type(8) {
-      -webkit-transform: rotate(9deg);
-      -moz-transform: rotate(-7deg); }
+      -webkit-transform: rotate(-2deg);
+      -moz-transform: rotate(-1deg); }
     #slide-4 .polaroid:nth-of-type(9) {
-      -webkit-transform: rotate(-5deg);
-      -moz-transform: rotate(0deg); }
+      -webkit-transform: rotate(5deg);
+      -moz-transform: rotate(3deg); }
     #slide-4 .polaroid:nth-of-type(10) {
       -webkit-transform: rotate(2deg);
-      -moz-transform: rotate(-1deg); }
+      -moz-transform: rotate(6deg); }
     #slide-4 .polaroid:nth-of-type(11) {
-      -webkit-transform: rotate(-6deg);
-      -moz-transform: rotate(-1deg); }
+      -webkit-transform: rotate(9deg);
+      -moz-transform: rotate(-3deg); }
     #slide-4 .polaroid:nth-of-type(12) {
-      -webkit-transform: rotate(-1deg);
-      -moz-transform: rotate(-2deg); }
+      -webkit-transform: rotate(9deg);
+      -moz-transform: rotate(3deg); }
     #slide-4 .polaroid:nth-of-type(13) {
-      -webkit-transform: rotate(-6deg);
-      -moz-transform: rotate(7deg); }
-    #slide-4 .polaroid:nth-of-type(14) {
-      -webkit-transform: rotate(-6deg);
+      -webkit-transform: rotate(7deg);
       -moz-transform: rotate(-2deg); }
+    #slide-4 .polaroid:nth-of-type(14) {
+      -webkit-transform: rotate(5deg);
+      -moz-transform: rotate(6deg); }
     #slide-4 .polaroid:nth-of-type(15) {
-      -webkit-transform: rotate(-2deg);
-      -moz-transform: rotate(5deg); }
+      -webkit-transform: rotate(1deg);
+      -moz-transform: rotate(-6deg); }
