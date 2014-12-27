@@ -52,7 +52,44 @@
 }
 
 #slide-5 {
+
+	position: relative;
+
 	.slide-background {
 		background-image: url('../img/naomi-sourire.jpg');
 	}
+
+	.note {
+		position: absolute;
+		font-family: cursive;
+		opacity: 0;
+		transition: opacity .5s ease;
+
+		&:first-of-type {
+			top: 200px;
+			left: 120px;
+		}
+
+		&:nth-of-type(2) {
+			top: 380px;
+			left: 120px;
+		}
+
+	}
+
+	img {
+		position: absolute;
+		top: 10px;
+		left: 50px;
+
+		&:hover + .note {
+			opacity: 1;
+		}
+
+		&:hover + .note + .note {
+			opacity: 1;
+		}
+
+	}
+
 }
